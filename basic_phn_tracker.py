@@ -7,7 +7,7 @@ oni = Tk()
 
 oni.title('LOCATION TRACKER')
 oni.geometry('400x300')
-label = Label(oni, text='Advance Project', height=2,font=("Felix Titling", 20)).pack()
+label = Label(oni, text='Basic Project', height=2,font=("Felix Titling", 20)).pack()
 
 ent = Entry(oni, width=30, borderwidth=3)
 ent.pack()
