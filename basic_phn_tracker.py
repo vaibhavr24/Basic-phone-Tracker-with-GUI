@@ -27,8 +27,6 @@ ent.bind("<Button-1>", on_click)
 
 # Main Func
 
-#ch_num = ph.parse(ent.get(), "CH")
-
 def called():
     ch_num = ph.parse(ent.get(), "CH")
     ser_num = ph.parse(ent.get(), "RO")
